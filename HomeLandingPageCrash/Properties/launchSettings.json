@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HomeLandingPageCrash (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HomeLandingPageCrash (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
