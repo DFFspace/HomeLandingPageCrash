@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Window
     x:Class="HomeLandingPageCrash.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:HomeLandingPageCrash"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
     xmlns:dev="using:DevWinUI"
-    Title="HomeLandingPageCrash">
+    xmlns:local="using:HomeLandingPageCrash"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="HomeLandingPageCrash"
+    mc:Ignorable="d">
 
 
     <dev:MainLandingPage
         x:Name="allLandingPage"
         HeaderImage="{ThemeResource HeaderCover}"
         HeaderOverlayImage="{ThemeResource HeaderCover}"
-        HeaderSubtitleText="1.0.042"
+        HeaderSubtitleText="1.0.000"
         HeaderText="HomeLandingPage crash example">
         <dev:MainLandingPage.HeaderContent>
             <StackPanel Orientation="Horizontal" Spacing="10">
